@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://bastionthe.dev/BANE/sitemap.xml
+Sitemap: https://bastionthe.dev/BANE/BANE/sitemap.xml
