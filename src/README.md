@@ -7,4 +7,4 @@ footer: Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePr
 ReadingTime: false
 ---
 
-BANE
+## Only Authorized BANE personnel are allowed beyond this point. If you are not authorized, visual amnestics will be administered shortly.

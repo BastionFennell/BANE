@@ -86,7 +86,9 @@ export default {
         case "kobold": return "fas fa-mountain";
         case "aboleth": return "fas fa-eye";
         case "neutralized": return "fas fa-ban";
+        case "dimension": return "fas fa-infinity";
         case "caution": return "fas fa-triangle-exclamation";
+        case "danger": return "fas fa-skull";
         case "critical": return "fas fa-biohazard";
         default: return "fas fa-book";
       }

@@ -102,6 +102,11 @@
                 border-color: var(--kobold);
             }
 
+            &.dimension {
+                background: var(--tarrasque-lite);
+                border-color: var(--tarrasque);
+            }
+
             .class {
                 font-size: 36px;
                 font-weight: bold;
@@ -183,6 +188,15 @@
                 }
             }
 
+            &.danger {
+                background: var(--dragon-lite);
+                border-color: var(--dragon);
+
+                .icon {
+                    background: var(--dragon);
+                }
+            }
+
             &.critical {
                 background: var(--tarrasque-lite);
                 border-color: var(--tarrasque);
@@ -199,6 +213,16 @@
             }
 
             &.tarrasque {
+                background: var(--tarrasque-lite);
+                border-color: var(--tarrasque);
+
+                .icon {
+                    background: var(--tarrasque);
+                    color: var(--platinum)
+                }
+            }
+
+            &.dimension {
                 background: var(--tarrasque-lite);
                 border-color: var(--tarrasque);
 
@@ -272,13 +296,19 @@
                 }
             }
 
-            &.tarrasque, &.critical {
+            &.danger, &.dragon {
+                .diamond {
+                    color: var(--dragon);
+                }
+            }
+
+            &.tarrasque, &.critical, &.dimension {
                 .diamond {
                     color: var(--tarrasque);
                 }
             }
 
-            &.tarrasque i {
+            &.tarrasque i, &.dimension i {
                 color: var(--platinum) !important;
             }
 

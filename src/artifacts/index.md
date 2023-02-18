@@ -4,4 +4,4 @@ copyright: false
 footer: Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | MIT Licensed, Copyright © 2019-present Mr.Hope
 ---
 
-## Only Authorized BANE personnel are allowed beyond this point. If you are not authorized, visual amnestics will be administered shortly.
+## Due to a system issue, agents only have access to a limited number of BANE articles. The records department is working around the clock to address this issue.
