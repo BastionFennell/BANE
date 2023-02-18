@@ -3,7 +3,7 @@ import { enNavbar } from "./navbar/index.js";
 import { enSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://bastionfennell.github.io/BANE",
+  hostname: "https://bastionthe.dev/BANE",
 
   iconAssets: "fontawesome",
 
