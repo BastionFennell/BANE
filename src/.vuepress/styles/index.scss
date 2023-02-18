@@ -1,0 +1,331 @@
+// place your custom styles here
+:root {
+    --platinum: #DDDFDF;
+    --thistle: #D0C4DF;
+    --plum: #DCABDF;
+    --wisteria: #C792DF;
+
+    --mantis: #79B473;
+    --mantis-lite: #C9E1C7;
+
+    --kobold: #FFBA08;
+    --kobold-lite: #FFF1CE;
+
+    --aboleth: #E85D04;
+    --aboleth-lite: #FEDEC9;
+
+    --dragon: #D00000;
+    --dragon-lite: #FFC3C3;
+
+    --kraken: #370617;
+    --kraken-lite: #F6AEC7;
+
+    --tarrasque: #03071E;
+    --tarrasque-lite: #A8B4F6;
+}
+
+.containment-class {
+    background-color: var(--platinum);
+    display: grid;
+    grid-template-columns: auto max-content;
+    padding: 10px 15px;
+    width: 100%;
+
+    .top-bar {
+        align-items: center;
+        display: grid;
+        font-size: 18px;
+        grid-template-columns: max-content auto max-content;
+        margin-bottom: 10px;
+        width: 100%;
+
+        strong {
+            font-size: 36px;
+        }
+
+        .separators {
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: space-around;
+            padding: 0 20px;
+            width: 100%;
+
+            .separator {
+                background-color: var(--wisteria);
+                height: 15px;
+            }
+        }
+
+        .level {
+            font-size: 14px;
+        }
+
+        .text {
+            font-weight: bold;
+        }
+    }
+
+    .bottom-bar {
+        display: grid;
+        grid-template-columns: max-content auto max-content max-content;
+        min-height: 75px;
+
+        .containment, .disruption, .risk {
+            border-left: 10px solid;
+            display: flex;
+            align-items: center;
+            padding-left: 5px;
+        }
+
+        .containment {
+            padding-left: 20px;
+
+            &.uncontained {
+                background: var(--dragon-lite);
+                border-color: var(--dragon);
+            }
+
+            &.material {
+                background: var(--mantis-lite);
+                border-color: var(--mantis);
+            }
+
+            &.neutralized {
+                background: white;
+                border-color: var(--thistle);
+            }
+
+            &.tower {
+                background: var(--kobold-lite);
+                border-color: var(--kobold);
+            }
+
+            .class {
+                font-size: 36px;
+                font-weight: bold;
+            }
+
+            .icon {
+                padding: 0 20px 0 30px;
+                i {
+                    font-size: 60px;
+                }
+            }
+        }
+
+        .other {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        .disruption, .risk {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 10px;
+
+            &:first-child {
+                margin-bottom: 5px;
+            }
+
+            &.safe {
+                background: var(--mantis-lite);
+                border-color: var(--mantis);
+
+                .icon {
+                    background: var(--mantis);
+                }
+
+                i {
+                    margin-right: -1px;
+                }
+            }
+
+            &.unknown {
+                background: white;
+                border-color: var(--thistle)
+            }
+
+            &.caution {
+                background: var(--kobold-lite);
+                border-color: var(--kobold);
+
+                .icon {
+                    background: var(--kobold);
+                }
+
+                i {
+                    margin-top: -4px;
+                }
+            }
+
+            &.kobold {
+                background: var(--kobold-lite);
+                border-color: var(--kobold);
+
+                .icon {
+                    background: var(--kobold);
+                }
+
+                i {
+                    margin-top: -4px;
+                }
+            }
+
+            &.aboleth {
+                background: var(--aboleth-lite);
+                border-color: var(--aboleth);
+
+                .icon {
+                    background: var(--aboleth);
+                }
+            }
+
+            &.critical {
+                background: var(--tarrasque-lite);
+                border-color: var(--tarrasque);
+
+                .icon {
+                    background: var(--tarrasque);
+                    color: var(--platinum)
+                }
+            }
+
+            &.tarrasque {
+                background: var(--tarrasque-lite);
+                border-color: var(--tarrasque);
+
+                .icon {
+                    background: var(--tarrasque);
+                    color: var(--platinum)
+                }
+
+                i {
+                    margin-right: -4px;
+                    margin-bottom: -1px;
+                }
+            }
+
+            .label {
+                font-size: 10px;
+            }
+
+            .class {
+                font-weight: bold;
+                font-size: 18px;
+            }
+
+            .icon {
+                align-items: center;
+                border: 2px solid black;
+                display: flex;
+                justify-content: space-around;
+                height: 30px;
+                margin-left: 20px;
+                width: 30px;
+            }
+
+            i {
+                font-size: 24px;
+            }
+        }
+    }
+
+    .icon {
+        border-radius: 50%;
+    }
+
+    .quick-view {
+        margin-left: 70px;
+
+        i {
+            color: black;
+        }
+
+        div {
+            &.material, &.safe {
+                .diamond {
+                    color: var(--mantis);
+                }
+
+                i {
+                    margin-right: -2px;
+                }
+            }
+            &.kobold, &.tower, &.caution {
+                .diamond {
+                    color: var(--kobold);
+                }
+            }
+
+            &.aboleth {
+                .diamond {
+                    color: var(--aboleth);
+                }
+            }
+
+            &.uncontained {
+                .diamond {
+                    color: var(--dragon);
+                }
+            }
+
+            &.tarrasque, &.critical {
+                .diamond {
+                    color: var(--tarrasque);
+                }
+            }
+
+            &.tarrasque i {
+                color: var(--platinum) !important;
+                margin-right: -4px;
+                margin-bottom: -5px;
+            }
+
+            &.critical i {
+                color: var(--platinum) !important;
+            }
+        }
+
+        .diamond {
+            z-index: 0;
+            color: white;
+        }
+
+        .icon {
+            font-size: 30px;
+            left: 37.5px;
+            position: absolute;
+            top: 37.5px;
+            transform: translateY(-50%) translateX(-50%);
+            z-index: 100;
+        }
+
+        .top, .left, .right, .bottom {
+            position: relative;
+        }
+
+        .top {
+            margin-left: -3px;
+        }
+
+        .middle {
+            display: flex;
+            margin-top: -44px;
+            margin-left: -37.5px;
+            .left {
+                margin-right: -3px;
+            }
+            .right {
+                margin-left: -3px;
+            }
+        }
+
+        .bottom {
+            margin-left: -3px;
+            margin-top: -44px;
+        }
+    }
+}
