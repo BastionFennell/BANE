@@ -1,0 +1,1 @@
+import{_ as n,W as s,X as o,Y as e,Z as t}from"./framework-81d084c0.js";const l={},c=e("p",null,[e("strong",null,"Full Name"),t(": Unknown")],-1),_=e("p",null,[e("strong",null,"Title"),t(": CEO, CFO, CTO, CMO, CSO, CRO")],-1),r=[c,_];function a(u,i){return s(),o("div",null,r)}const h=n(l,[["render",a],["__file","the-executives.html.vue"]]);export{h as default};

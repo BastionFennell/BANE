@@ -1,0 +1,1 @@
+import{_ as o,W as n,X as s,Y as e,Z as t}from"./framework-81d084c0.js";const a={},c=e("p",null,[t("A "),e("strong",null,"WORK IN PROGRESS"),t(" of people that every agent should know about.")],-1),_=[c];function l(r,d){return n(),s("div",null,_)}const u=o(a,[["render",l],["__file","index.html.vue"]]);export{u as default};

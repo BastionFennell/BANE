@@ -1,0 +1,1 @@
+import{_ as o,W as n,X as s,Y as e,Z as t}from"./framework-81d084c0.js";const l={},c=e("p",null,[e("strong",null,"Full Name"),t(": Vivian Thistle")],-1),_=e("p",null,[e("strong",null,"Title"),t(": Director of Communications")],-1),i=[c,_];function r(a,u){return n(),s("div",null,i)}const m=o(l,[["render",r],["__file","viv.html.vue"]]);export{m as default};
