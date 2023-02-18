@@ -87,7 +87,7 @@
                 border-color: var(--dragon);
             }
 
-            &.material {
+            &.safe {
                 background: var(--mantis-lite);
                 border-color: var(--mantis);
             }
@@ -191,6 +191,11 @@
                     background: var(--tarrasque);
                     color: var(--platinum)
                 }
+
+                i {
+                    margin-right: -4px;
+                    margin-bottom: -1px;
+                }
             }
 
             &.tarrasque {
@@ -200,11 +205,6 @@
                 .icon {
                     background: var(--tarrasque);
                     color: var(--platinum)
-                }
-
-                i {
-                    margin-right: -4px;
-                    margin-bottom: -1px;
                 }
             }
 
@@ -245,7 +245,7 @@
         }
 
         div {
-            &.material, &.safe {
+            &.safe {
                 .diamond {
                     color: var(--mantis);
                 }
@@ -280,12 +280,12 @@
 
             &.tarrasque i {
                 color: var(--platinum) !important;
-                margin-right: -4px;
-                margin-bottom: -5px;
             }
 
             &.critical i {
                 color: var(--platinum) !important;
+                margin-right: -4px;
+                margin-bottom: -5px;
             }
         }
 

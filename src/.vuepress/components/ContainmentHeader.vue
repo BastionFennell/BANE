@@ -77,7 +77,7 @@ export default {
   methods: {
     getIconClass(iconName) {
       switch(iconName) {
-        case "tarrasque": return "fas fa-biohazard";
+        case "tarrasque": return "fas fa-globe";
         case "unknown": return "fas fa-question";
         case "uncontained": return "fas fa-arrows-up-down-left-right";
         case "safe":
@@ -87,7 +87,7 @@ export default {
         case "aboleth": return "fas fa-eye";
         case "neutralized": return "fas fa-ban";
         case "caution": return "fas fa-triangle-exclamation";
-        case "critical": return "fas fa-skull";
+        case "critical": return "fas fa-biohazard";
         default: return "fas fa-book";
       }
     },
