@@ -96,6 +96,7 @@ export default {
         case "2": return "fas fa-2";
         case "3": return "fas fa-3";
         case "4": return "fas fa-4";
+        case "5": return "fas fa-5";
         default: return "fas fa-book";
       }
     },

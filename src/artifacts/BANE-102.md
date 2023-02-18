@@ -21,7 +21,7 @@ These crayons, when used to draw something, will bring it to life once the drawi
 
 ## Level Three Information
 
-Bane-102 is more effective the younger the user is. Young users can create entire worlds, while older users can only create smaller entities. Possibility: Is this world one that was created previously by BANE-102?
+BANE-102 is more effective the younger the user is. Young users can create entire worlds, while older users can only create smaller entities. Possibility: Is this world one that was created previously by BANE-102?
 
 Incident BANE-102-1 was a catastrophic incident in which the town of ██████████ was entirely destroyed by a drawing of a dragon. By the time BANE agents arrived on the site, BANE-102-1-1 had already destroyed the entire town. After destroying BANE-102-1-1, Agents on sight stopped the resulting fires throughout the town and contained the incident by spreading rumors of nearby bandit attacks that relied on fire.
 

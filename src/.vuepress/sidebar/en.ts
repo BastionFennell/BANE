@@ -35,7 +35,7 @@ export const enSidebar = sidebar({
       icon: "users",
       text: "Notable Personnel",
       link: "/notable-personnel/",
-      children: ["dr-vigorblood", "viv", "the-executives"],
+      children: ["dr-vigorblood", "viv", "the-executives", "charlie-stafford"],
     },
   ],
 });
