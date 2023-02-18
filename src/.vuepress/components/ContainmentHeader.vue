@@ -65,6 +65,7 @@
           <div class="bottom">
               <div class="diamond none">
                   <svg stroke="black" width="75" height="75" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 650"><g><path id="svg_2" d="m25.30386,325.00001l299.98623,-299.9863l299.40604,299.9863l-299.40604,299.98629l-299.98623,-299.98629z" fill="currentColor" /></g></svg>
+                  <div class="icon"><i :class="getIconClass(securityLevel)"></i></div>
               </div>
           </div>
       </div>
@@ -90,6 +91,11 @@ export default {
         case "caution": return "fas fa-triangle-exclamation";
         case "danger": return "fas fa-skull";
         case "critical": return "fas fa-biohazard";
+        case "0": return "fas fa-0";
+        case "1": return "fas fa-1";
+        case "2": return "fas fa-2";
+        case "3": return "fas fa-3";
+        case "4": return "fas fa-4";
         default: return "fas fa-book";
       }
     },
