@@ -12,8 +12,11 @@ export const enSidebar = sidebar({
         "BANE-102",
         "BANE-127",
         "BANE-409",
+        "BANE-493",
+        "BANE-1004",
         "BANE-3086",
         "BANE-4812",
+        "BANE-5986",
         {
           text: "BANE-5034",
           path: "BANE-5034",
