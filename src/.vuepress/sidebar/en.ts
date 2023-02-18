@@ -11,6 +11,7 @@ export const enSidebar = sidebar({
         "BANE-036",
         "BANE-102",
         "BANE-127",
+        "BANE-409",
         "BANE-3086",
         "BANE-4812",
         {
