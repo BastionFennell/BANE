@@ -87,7 +87,7 @@
                 border-color: var(--dragon);
             }
 
-            &.safe {
+            &.safe, &.material {
                 background: var(--mantis-lite);
                 border-color: var(--mantis);
             }
@@ -135,7 +135,7 @@
                 margin-bottom: 5px;
             }
 
-            &.safe {
+            &.safe, &.material {
                 background: var(--mantis-lite);
                 border-color: var(--mantis);
 
@@ -151,6 +151,15 @@
             &.unknown {
                 background: white;
                 border-color: var(--thistle)
+            }
+
+            &.neutralized {
+                background: white;
+                border-color: var(--thistle);
+
+                .icon {
+                    background: burlywood;
+                }
             }
 
             &.caution {
@@ -269,7 +278,7 @@
         }
 
         div {
-            &.safe {
+            &.safe, &.material {
                 .diamond {
                     color: var(--mantis);
                 }
@@ -287,6 +296,12 @@
             &.aboleth {
                 .diamond {
                     color: var(--aboleth);
+                }
+            }
+
+            &.neutralized, &.unknown {
+                .diamond {
+                    color: var(--thistle)
                 }
             }
 
