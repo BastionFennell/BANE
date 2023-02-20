@@ -9,7 +9,7 @@ footer: Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePr
 
 ![Trickster's Coin](/assets/BANE-409.png)
 
-**Containment Procedures**: When instances of BANE-409 are identifed, they are to be taken into agent custody. Continued observation is recommended until they have been placed into the vault at ██████. Visual or magical observation is enough to prevent the anomolies of BANE-409 from occuring. All instances which are contained are ████████████████████████████████████ to reduce operational burden.
+**Containment Procedures**: When instances of BANE-409 are identifed, they are to be taken into agent custody. Continued observation is recommended until they have been placed into the vault at ██████. Visual or magical observation is enough to prevent the anomolies of BANE-409 from occuring. All instances which are contained are ████ ███████████ ███████████ ██████████ to reduce operational burden.
 
 **Description**: BANE-409 is the name for an unknown number of magical gold coins, stamped with a Jester on both sides. Rarely, when not under obseration, these coins will multiply or disappear. It is unkown if BANE-409 has a fixed number of instances, or if the anomalies actually create and destroy matter.
 
@@ -21,7 +21,7 @@ Containment of BANE-409 is not a high priority objective of BANE at this time. O
 
 ## Level Three Information
 
-BANE-409 is under research by ████████████ for use as a source of financing. It is theorized that ██████████████████ may influence the anomalies, allowing BANE to stockpile larger and larger quantities for use in emergencies. 
+BANE-409 is under research by ████████████ for use as a source of financing. It is theorized that ██████████████████ may influence the anomalies, allowing BANE to stockpile larger and larger quantities for use in emergencies.
 
 ## Level Four Information
 

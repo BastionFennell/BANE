@@ -14,7 +14,7 @@
                   <div class="text">{{ getSecurityType(securityLevel).toUpperCase() }}</div>
               </div>
           </div>
-          <div class="bottom-bar">
+          <div class="bottom-bar" :class="getSize()">
               <div class="containment" :class="containment">
                   <div class="text">
                       <div class="label">CONTAINMENT CLASS:</div>
@@ -74,7 +74,22 @@
 
 <script>
 export default {
+  el: "#component-header",
+  data() {
+    return {
+      width: null,
+    }
+  },
   props: ["baneid", "containment", "disruption", "risk", "securityLevel"],
+  created() {
+  window.addEventListener("resize", this.screenWidth);
+  },
+  mounted() {
+    this.screenWidth()
+  },
+  destroyed() {
+    window.removeEventListener("resize", this.screenWidth);
+  },
   methods: {
     getIconClass(iconName) {
       switch(iconName) {
@@ -109,7 +124,15 @@ export default {
         case "4": return "hydra";
         case "5": return "pyramid";
       }
-    }
+    },
+    getSize() {
+      if(this.width < 420) return "xs";
+      if(this.width < 585) return "sm";
+      return "md";
+    },
+    screenWidth() {
+      this.width = this.$el.offsetWidth
+    },
   }
 }
 </script>

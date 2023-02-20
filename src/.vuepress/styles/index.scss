@@ -25,9 +25,12 @@
 }
 
 .containment-class {
+    align-items: center;
+    align-content: center;
     background-color: var(--platinum);
-    display: grid;
-    grid-template-columns: auto max-content;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
     padding: 10px 15px;
     width: 100%;
 
@@ -68,14 +71,17 @@
     }
 
     .bottom-bar {
-        display: grid;
-        grid-template-columns: max-content auto max-content max-content;
+        align-items: stretch;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
         min-height: 75px;
 
         .containment, .disruption, .risk {
+            align-items: center;
             border-left: 10px solid;
             display: flex;
-            align-items: center;
+            justify-content: space-between;
             padding-left: 5px;
         }
 
@@ -120,10 +126,33 @@
             }
         }
 
+        &.md .containment {
+            margin-right: 5px;
+        }
+
+        &.sm .containment {
+            margin-bottom: 10px;
+            width: 100%;
+        }
+
+        &.xs .containment {
+            margin-bottom: 10px;
+            width: 100%;
+
+            .class {
+                font-size: 20px;
+            }
+        }
+
         .other {
             display: flex;
             flex-direction: column;
             justify-content: space-around;
+
+        }
+
+        &.sm .other, &.xs .other {
+            width: 100%;
         }
 
         .disruption, .risk {
