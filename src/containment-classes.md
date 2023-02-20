@@ -47,6 +47,10 @@ This class relates to the difficulty and security of our current containment pro
     <i class="fas fa-infinity"></i> <strong>Dimension</strong>: This artifact requires an entire site dedicated to containing it.
 </div>
 
+<div class="descriptor" style="background-color: white; border-color: var(--thistle)">
+    <i class="fas fa-ban"></i> <strong>Neutralized</strong>: This artifact no longer requires containment
+</div>
+
 ## Disruption
 
 This class relates to the effect this artifact would have if it breached containment.

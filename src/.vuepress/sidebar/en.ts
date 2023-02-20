@@ -11,8 +11,12 @@ export const enSidebar = sidebar({
         "BANE-036",
         "BANE-102",
         "BANE-127",
+        "BANE-409",
+        "BANE-493",
+        "BANE-1004",
         "BANE-3086",
         "BANE-4812",
+        "BANE-5986",
         {
           text: "BANE-5034",
           path: "BANE-5034",
@@ -34,7 +38,7 @@ export const enSidebar = sidebar({
       icon: "users",
       text: "Notable Personnel",
       link: "/notable-personnel/",
-      children: ["dr-vigorblood", "viv", "the-executives"],
+      children: ["dr-vigorblood", "viv", "the-executives", "charlie-stafford"],
     },
   ],
 });
