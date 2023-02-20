@@ -81,13 +81,15 @@ export default {
     }
   },
   props: ["baneid", "containment", "disruption", "risk", "securityLevel"],
-  created() {
-  window.addEventListener("resize", this.screenWidth);
-  },
   mounted() {
+    window.addEventListener("resize", this.screenWidth);
     this.screenWidth()
   },
   destroyed() {
+    const window = window ? window : null;
+
+    if (!window) return;
+
     window.removeEventListener("resize", this.screenWidth);
   },
   methods: {
